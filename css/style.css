@@ -1,0 +1,207 @@
+
+
+* {box-sizing:border-box;} /*mantiene el ancho independientemente del padding, es decir no amplia el cuadro*/
+
+body{
+	font-family: 'Fjord One', serif;
+	color:#3c1f05;
+}
+
+
+header{
+	padding: 10px 0;
+	width: auto;
+	text-align: center;
+}
+
+header img{
+	vertical-align: middle;
+	overflow: visible;
+
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+	
+}
+
+header nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
+
+}
+
+header nav a.active {
+	background: #F07D5A;
+	border-radius: 3px;
+	
+
+}
+
+.home-wrapper{
+	background: linear-gradient(rgba(240, 120, 90, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fondo.jpg)no-repeat;
+	background-size: cover;
+	color: white;
+
+	}
+
+
+#home{
+	text-align: center;
+	padding: 200px 0 150px;
+}	
+section{
+	padding: 40px 0;
+}
+section h2
+{
+	font-size: 36px;
+	text-align: center;
+}
+
+.box{
+	display: block;
+	text-align: justify;
+	max-width: 700px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	color: white; 
+	font-weight: bold;
+}
+
+.container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#planes{
+	background-color: #F07D5A;
+
+}
+
+#contacto .datos{
+display: inline-block;
+text-align: center;
+padding: 0 5px;
+float: left;
+color: #672514;
+width: 350px;
+margin-left: auto;
+margin-right: auto;
+}
+.redes a{
+	display: inline-block;
+	padding: 10px
+	font-size: 30px;
+	border-radius: 30%;
+	border: 0.5px solid black;
+	background-color: #F07D5A;
+	line-height: 30px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	color: white !important;
+	-webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.redes a:hover{
+	background-color: #DAABC9;
+}
+
+#contacto .formulario{
+max-width: 400px;
+padding: 20px 0;
+margin-bottom: 20px;
+margin-left: 50%;
+margin-right: auto;
+}
+
+form input{
+	padding: 20px;
+	margin-bottom: 10px;
+	width: 370px;
+	border-radius: 3px;
+	border: 1px solid black;
+	display: block;
+
+}
+
+form button{
+	width: 80px;
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #F07D5A;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	border: 1px solid white;
+	-webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}	
+
+form button:hover{
+    background-color: #DAABC9;
+}
+
+
+footer{
+	background-color: #333;
+	padding: 20px 0;
+	font-size: 10px;
+	text-align: center;
+	display: block;
+	bottom: 1px;
+
+}
+
+footer h4, footer p{
+	color:white;
+}
+
+footer nav{
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+footer nav a {
+	color: white;
+	font-weight: lighter;
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px;
+
+}
+
+footer nav a.active {
+	text-decoration: underline;
+	color: #F07D5A;
+	}
+
+@media screen and (max-width: 800px){
+#contacto .datos{
+display: block;
+float: none;
+}
+#contacto .formulario{
+margin-left: auto;
+margin-right: auto;
+}
+.container {
+	width: 95%;
+	
+}
+}
